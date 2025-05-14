@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
-import 'baris_kolom.dart';
+import 'mata_kuliah.dart'; // file form input mata kuliah
 
-void main() => runApp(const MyApp());
+void main() {
+  runApp(const MyApp());
+}
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -10,8 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Latihan Flutter',
-      debugShowCheckedModeBanner: false,
-      home: const BarisKolomPage(),
+      home: MataKuliahForm(), // halaman pertama adalah form input
     );
   }
 }
