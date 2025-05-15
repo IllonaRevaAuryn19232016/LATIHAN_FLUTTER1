@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'mata_kuliah.dart'; // file form input mata kuliah
-
+import 'tugas_stateful.dart'; 
 void main() {
   runApp(const MyApp());
 }
@@ -12,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Latihan Flutter',
-      home: MataKuliahForm(), // halaman pertama adalah form input
+      home: TugasStateful(), 
     );
   }
 }
